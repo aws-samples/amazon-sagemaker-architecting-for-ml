@@ -1,4 +1,4 @@
-## Amazon Sagemaker Architecting For Ml
+## Amazon Sagemaker Architecting For ML
 
 Materials for a 3-day instructor led course on applying machine learning 
 
