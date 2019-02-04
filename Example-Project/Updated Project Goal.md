@@ -32,4 +32,4 @@ Linear learner worked functionally, but it was not highly accurate. Next iterati
         - If there's likely to be a crime on your block, get a notification
 
 ## References
-      * https://arxiv.org/pdf/1806.01486.pdf 
+* https://arxiv.org/pdf/1806.01486.pdf 
