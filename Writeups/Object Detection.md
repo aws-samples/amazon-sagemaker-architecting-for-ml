@@ -1,6 +1,6 @@
-Custom Object detection using Machine Learning on Sagemaker
+# Custom Object detection using Machine Learning on Sagemaker
 
-Introduction
+## Introduction
 
 Shipping traffic is growing fast. More ships increase the chances of infractions at sea like environmentally devastating ship accidents, piracy, illegal fishing, drug trafficking, and illegal cargo movement. This has compelled many organizations, from environmental protection agencies to insurance companies and national government authorities, to have a closer watch over the open seas. Airbus (http://www.intelligence-airbusds.com/satellite-data/) offers comprehensive maritime monitoring services by building a meaningful solution for wide coverage, fine details, intensive monitoring, premium reactivity and interpretation response. Combining its proprietary-data with highly-trained analysts, they help to support the maritime industry to increase knowledge, anticipate threats, trigger alerts, and improve efficiency at sea.
 
@@ -8,7 +8,7 @@ Shipping traffic is growing fast. More ships increase the chances of infractions
 [Image: Images/airbus_1.jpg] *Airbus has recruited your team to locate ships in satellite images, and put an aligned bounding box segment around the ships you locate. A long term contract will be provided to your team based on a Proof-of-Concept model that you provide to Airbus. Airbus has been doing most of their analytics and machine learning on-prem, in their own data centers, and is interested in learning about the advantages of using AWS Sagemaker for model training and hosting. Currently, Airbus is producing more satellite data than it can process, and is interested in an automated solution. *
 
 
-About the Dataset
+## About the Dataset
 
 [Image: image.png]This dataset is focused on recognition of ships by machine learning. This dataset contains a database of small images of tankers, commercial ships or fishing ships. It also contains some large scale SPOT images at 1.5 m. resolution to test your ship detection algorithm on real satellite images.
 
@@ -30,7 +30,7 @@ Airbus data scientists realized that thinking of the problem as having two disti
 
 [Image: Image.jpg]
 
-Image Classification vs. Image Segmentation
+## Image Classification vs. Object Detection
 
 Using the first image on the left as an example, a _classification_ model predicts whether there is a ship (or a car, or a bike, or a ...) in the image; a _segmentation_ model predicts where an object is in an image (the “mask”). In other words, we are labeling whether a pixel belongs to a ship (white colored in the mask image), or not (black in the mask image). While there are purely image processing techniques to create masks and segment images, these are limited to simple images with distinct features like contrasting colors (for e.g., this would work if all ships were bright red, the water was bright blue, and clouds never formed on earth). Your task is to train a model to learn how to segment an image. Consider the following example image:
 
