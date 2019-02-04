@@ -31,9 +31,9 @@ Airbus data scientists realized that thinking of the problem as having two disti
 1. Remove noise from the original image and only consider a “mask” or minimal representation of the image. This “mask” (center image below) is what they were predicting as an output using ML
 2. Draw a bounding box around the predicted mask 
 
-[Image: Image.jpg]
+![alt text](Images/airbus_3.png ) 
 
-## Image Classification vs. Object Detection
+## Image Classification vs. Image Segmentation
 
 Using the first image on the left as an example, a _classification_ model predicts whether there is a ship (or a car, or a bike, or a ...) in the image; a _segmentation_ model predicts where an object is in an image (the “mask”). In other words, we are labeling whether a pixel belongs to a ship (white colored in the mask image), or not (black in the mask image). While there are purely image processing techniques to create masks and segment images, these are limited to simple images with distinct features like contrasting colors (for e.g., this would work if all ships were bright red, the water was bright blue, and clouds never formed on earth). Your task is to train a model to learn how to segment an image. Consider the following example image:
 
@@ -41,7 +41,6 @@ Using the first image on the left as an example, a _classification_ model predic
 Humans in the image are “segmented” from vehicles, signs, the road, buildings and the sky, and these different objects are colored differently as a post-processing step. Therefore, apart from recognizing different objects, we also have to delineate the boundaries of each object. Therefore, unlike classification, we need dense pixel-wise predictions from our models.
 
 Our ship example sounds a lot simpler now, doesn't it? 
-
 
 Additional notes from Airbus regarding the dataset
 
