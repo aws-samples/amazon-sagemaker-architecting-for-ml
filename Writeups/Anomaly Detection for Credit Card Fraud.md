@@ -15,6 +15,11 @@ You will have 182 MB of records, just over 6 million records with 11 columns. Th
 
 Explore both columns. It is very common for companies in finance to be currently using a rules-based system, and exploring the move from a large and complex rules-engine towards a dynamically learning and scalable machine-driven system.
 [Image: image.png]
+![alt text][logo]
+
+[logo]: https://github.com/aws-samples-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+
 
 
 ## Random Cut Forest 
