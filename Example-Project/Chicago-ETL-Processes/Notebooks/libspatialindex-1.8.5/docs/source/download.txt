@@ -1,0 +1,66 @@
+------------------------------------------------------------------------------
+Download
+------------------------------------------------------------------------------
+
+Current Release (MIT)
+------------------------------------------------------------------------------
+
+* **2014-09-29**
+
+  - `spatialindex-src-1.8.5-src.tar.gz  <http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.gz>`__
+    `(md5) <http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.gz.md5>`__
+
+  - `spatialindex-src-1.8.5-src.tar.bz2  <http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.bz2>`__
+    `(md5) <http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.bz2.md5>`__
+
+Windows Builds
+..............................................................................
+
+Windows builds are provided for convenience. The full matrix might not be
+complete, and you will have to compile yourself using your favorite compiler
+configuration and cmake if something is missing.
+
+- `libspatialindex-1.8.5-win-msvc-2013-x64.zip <http://download.osgeo.org/libspatialindex/libspatialindex-1.8.5-win-msvc-2013-x64.zip>`__
+  `(md5) <http://download.osgeo.org/libspatialindex/libspatialindex-1.8.5-win-msvc-2013-x64.zip.md5>`__
+
+
+
+Past Release (MIT)
+------------------------------------------------------------------------------
+
+* **2012-12-13**
+
+  - `spatialindex-src-1.8.0-src.tar.gz  <http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.0.tar.gz>`__
+    `(md5) <http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.0.tar.gz.md5>`__
+
+  - `spatialindex-src-1.8.0-src.tar.bz2  <http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.0.tar.bz2>`__
+    `(md5) <http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.0.tar.bz2.md5>`__
+
+Windows Builds
+..............................................................................
+
+Windows builds are provided for convenience. The full matrix might not be
+complete, and you will have to compile yourself using your favorite compiler
+configuration and cmake if something is missing.
+
+- `libspatialindex-1.8.0-win-msvc-2008-x64-x32.zip <http://download.osgeo.org/libspatialindex/libspatialindex-1.8.0-win-msvc-2008-x64-x32.zip>`__
+  `(md5) <http://download.osgeo.org/libspatialindex/libspatialindex-1.8.0-win-msvc-2008-x64-x32.zip.md5>`__
+
+- `libspatialindex-1.8.0-win-msvc-2010-x64-x32.zip  <http://download.osgeo.org/libspatialindex/libspatialindex-1.8.0-win-msvc-2010-x64-x32.zip>`__
+  `(md5) <http://download.osgeo.org/libspatialindex/libspatialindex-1.8.0-win-msvc-2010-x64-x32.zip.md5>`__
+
+
+Past Release(s) (LGPL)
+------------------------------------------------------------------------------
+
+* **2011-12-12**
+
+  - `spatialindex-src-1.7.1-src.tar.gz  <http://download.osgeo.org/libspatialindex/spatialindex-src-1.7.1.tar.gz>`__
+    `(md5) <http://download.osgeo.org/libspatialindex/spatialindex-src-1.7.1.tar.gz.md5>`__
+
+  - `spatialindex-src-1.7.1-src.tar.bz2  <http://download.osgeo.org/libspatialindex/spatialindex-src-1.7.1.tar.bz2>`__
+    `(md5) <http://download.osgeo.org/libspatialindex/spatialindex-src-1.7.1.tar.bz2.md5>`__
+
+
+  - `Release Notes <http://lists.gispython.org/pipermail/spatialindex/2011-December/000288.html>`__
+
