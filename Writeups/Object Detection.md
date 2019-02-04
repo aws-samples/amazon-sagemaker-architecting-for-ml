@@ -37,7 +37,7 @@ Airbus data scientists realized that thinking of the problem as having two disti
 
 Using the first image on the left as an example, a _classification_ model predicts whether there is a ship (or a car, or a bike, or a ...) in the image; a _segmentation_ model predicts where an object is in an image (the “mask”). In other words, we are labeling whether a pixel belongs to a ship (white colored in the mask image), or not (black in the mask image). While there are purely image processing techniques to create masks and segment images, these are limited to simple images with distinct features like contrasting colors (for e.g., this would work if all ships were bright red, the water was bright blue, and clouds never formed on earth). Your task is to train a model to learn how to segment an image. Consider the following example image:
 
-[Image: Image.jpg]
+![alt text](Images/airbus_4.png ) 
 Humans in the image are “segmented” from vehicles, signs, the road, buildings and the sky, and these different objects are colored differently as a post-processing step. Therefore, apart from recognizing different objects, we also have to delineate the boundaries of each object. Therefore, unlike classification, we need dense pixel-wise predictions from our models.
 
 Our ship example sounds a lot simpler now, doesn't it? 
@@ -52,49 +52,50 @@ Your objective is to assess the generalization capabilities of an ML model throu
 * Presence of clouds near the ships
 
 
-[Image: Image.jpg]
+![alt text](Images/airbus_5.png ) 
 
 * Presence of ships under haze or thin clouds
 
 
-[Image: Image.jpg]
+![alt text](Images/airbus_6.png ) 
 
 * Presence of large wake behind the ship (that will not count as part of the ship)
 
 
-[Image: Image.jpg]
+![alt text](Images/airbus_7.png ) 
 
 * Identification of individuals ships in marinas (Need to reduce false alarm rate on coastal areas as well as docks)
 
-[Image: Image.jpg]
+![alt text](Images/airbus_8.png ) 
 
 
 
 * Difficult cases due to sun reflectance on the sea
 
 
-[Image: Image.jpg][Image: Image.jpg]
+![alt text](Images/airbus_9.png ) 
+![alt text](Images/airbus_10.png ) 
 
 
 * confusion with waves due to wind conditions
 
 
-[Image: Image.jpg]
+![alt text](Images/airbus_11.png ) 
 
 * ships only partially visible in the image (in which cases the bounding box might be truncated). Ships size will greatly vary (from very small leisure ships to large tankers)
 
 
-[Image: Image.jpg]
+![alt text](Images/airbus_12.png ) 
 
 * Individual ships discrimination when two or more ships are coupled together
 
-[Image: Image.jpg]
+![alt text](Images/airbus_13.png ) 
 
 
 
 * Ships discrimination from other floating objects such as buoys, barges, wind turbines, etc
 
-[Image: Image.jpg]
+![alt text](Images/airbus_14.png ) 
 
 
 
