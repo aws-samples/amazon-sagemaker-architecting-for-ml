@@ -1,6 +1,6 @@
 # NLP: Text Classification
 
-## Business Problem*
+## Business Problem
 Building and producing products that are actually adopted by customers and solve real problems for them is a historically challenging task. Today, imagine that you have joined the machine learning team on the Amazon e-commerce site! Your webpage is full of reviews from customers for each of your products. Your product owners want to know about a negative review *immediately*. Ideally, they'd like to know why the review was negative. 
 
 ## Supervised & Unsupervised Machine Learning
