@@ -1,5 +1,5 @@
 # Architecting For Machine Learning on Amazon SageMaker
-Welcome to the art and science of machine learning! During this 3-day course you will learn about the theory and application of machine learning in industry. This course is designed for architects and developers who did not previously have a background in AI/ML, providing intuition and confidence in designing ML applications.
+Welcome to the art and science of machine learning! During this 3-day course you will learn about the theory and application of machine learning in industry. This course is designed for architects and developers who did not previously have a background in AI/ML. You will spend 3 days performing data science tasks: training models, evaluating them, analyzing data, etc. After this 3 day period you will be better suited to design architecture guidelines for ML production applications. This course is also open to full-time data scientists, who will learn how to perform those tasks on AWS. 
 
 We will cover:
 - Statistical machine learning
@@ -26,13 +26,13 @@ __Day Two:__
 - Start new notebooks, sample your code, and develop preliminary data sets
 - Read the evaluation questions, and begin to think about how your modeling strategy compares to the evaluation questions.
 - Finish most of your feature engineering.\
-__Stretch goal:__ produce a reference architecture explaining how you would like to use this model in production
+__Deliverable:__ Product the first version of your trained model 
 
 __Day Three:__
 - Learn about putting your model into production.
-- Format your data into X's and Y's
-- Produce a preliminary version of your model\
-__Stretch goal:__ produce multiple versions of your model and compare them
+- Evalute your project against other approaches
+- Design a reference architecture demonstrating your final solution
+__Stretch goal:__ Produce multiple versions of your model and compare them
 
 ## What you'll need
 - AWS Account log in credentials
