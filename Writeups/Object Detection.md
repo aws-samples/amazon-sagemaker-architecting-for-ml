@@ -11,7 +11,9 @@ Airbus has recruited your team to locate ships in satellite images, and put an a
 
 ## About the Dataset
 
-[Image: image.png]This dataset is focused on recognition of ships by machine learning. This dataset contains a database of small images of tankers, commercial ships or fishing ships. It also contains some large scale SPOT images at 1.5 m. resolution to test your ship detection algorithm on real satellite images.
+![alt text](Images/airbus_2.png ) 
+
+This dataset is focused on recognition of ships by machine learning. This dataset contains a database of small images of tankers, commercial ships or fishing ships. It also contains some large scale SPOT images at 1.5 m. resolution to test your ship detection algorithm on real satellite images.
 
 The data can be downloaded here:
 
