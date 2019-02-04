@@ -24,7 +24,7 @@ Explore both columns. It is very common for companies in finance to be currently
 
 ## Random Cut Forest 
 The unsupervised algorithm you'll be exploring is Random Cut Forest. Intuitively, the model samples portions of your data and builds a small forest of trees. After training, inference can be performed on a single data element. If the tree changes beyond some learnable threshold, the data element is considered an anomaly. 
-![alt text](https://github.com/aws-samples/amazon-sagemaker-architecting-for-ml/Writeups/Images/rcf_datahead.png "rcf_datahead")
+![alt text](Images/rcf_datahead.png "rcf_datahead")
 
 
 The data come provided to you in a single file. You will need to split them into a train, test, and validation set. Use the validation set extensively when optimizing your model, but rely on the test set only sparingly to determine the final evaluation report on your model.
