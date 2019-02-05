@@ -42,9 +42,10 @@ Humans in the image are “segmented” from vehicles, signs, the road, building
 
 Our ship example sounds a lot simpler now, doesn't it? 
 
-Additional notes from Airbus regarding the dataset
+## Starter Code
+* Architecting For ML / Starter Code / ship_detection.ipynb
 
-What you are up against...
+### What you are up against...
 
 Your objective is to assess the generalization capabilities of an ML model throughout the very diverse images that may be acquired. To that extent, you will assess the model performance in varied circumstances with an emphasis on difficult cases such as the following situations:
 
