@@ -7,12 +7,7 @@ Imagine you are the manager at a manufacturing company responsible for monitorin
 1. unscheduled downtime and resulting delays in delivering your product to market
 2. cost incurred due to delays, and hiring maintenance workers to repair and possibly replace parts of the machine that caused the breakdown
 
-[Image: Image.jpg]
-
-
-
-< From https://www.raconteur.net/manufacturing/how-to-increase-efficiency-in-production
-
+![alt text](https://www.raconteur.net/manufacturing/how-to-increase-efficiency-in-production, "https://www.raconteur.net/manufacturing/how-to-increase-efficiency-in-production" )
 
 
 You have been tasked with researching a technique called “*predictive maintenance*”, especially after your competitors Advantech, Inc. have published a report (http://www.advantech.com/industrial-automation/industry4.0/pms#my_cen). Additionally, you are intrigued to see if Machine Learning can help with this problem. Your team's collective research notes regarding a potential proof-of-concept that you will be building is included here:  
