@@ -39,6 +39,4 @@ __Stretch goal:__ Produce multiple versions of your model and compare them
 - Github account to share code with your project partners
 - Kaggle account to download data sets
 
-We're assuming that you will complete this course using an AWS account we will provide you with throughout the course. If you would like to use your own, you are welcome to, but we cannot guarantee technical success in other accounts.
-
-You are welcome to share your code publicly with your teammates, in which case you can use the code elsewhere.
+We're assuming that you will complete this course using an AWS account we will provide you with throughout the course. 
