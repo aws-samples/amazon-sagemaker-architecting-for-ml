@@ -1,18 +1,15 @@
 # Predictive Maintenance using Machine Learning on Sagemaker
 
-Introduction
+### Introduction
 
 Imagine you are the manager at a manufacturing company responsible for monitoring assembly lines. Each assembly line contains multiple kinds of machines that must work continuously and reliably to produce ready-to-ship products as can be seen in the image below. IoT sensors placed on these machines monitor electricity consumption, noise generated, vibration, temperature and various other measurable quantities that are used to monitor the health of each machine. Sudden breakdown of any of these machines across multiple assembly lines will lead to:
 
-1. unscheduled downtime and resulting delays in delivering your product to market
-2. cost incurred due to delays, and hiring maintenance workers to repair and possibly replace parts of the machine that caused the breakdown
-
-![alt text](https://www.raconteur.net/manufacturing/how-to-increase-efficiency-in-production, "https://www.raconteur.net/manufacturing/how-to-increase-efficiency-in-production" )
-
+1. Unscheduled downtime and resulting delays in delivering your product to market
+2. Cost incurred due to delays, and hiring maintenance workers to repair and possibly replace parts of the machine that caused the breakdown
 
 You have been tasked with researching a technique called “*predictive maintenance*”, especially after your competitors Advantech, Inc. have published a report (http://www.advantech.com/industrial-automation/industry4.0/pms#my_cen). Additionally, you are intrigued to see if Machine Learning can help with this problem. Your team's collective research notes regarding a potential proof-of-concept that you will be building is included here:  
 
-Reactive, Predictive or Preventive Maintenance
+## Reactive, Predictive or Preventive Maintenance
 
 Maintenance schedules in typical manufacturing and energy companies that involve large number of machines performing tasks are typically a result of “reactive” or “preventive” maintenance. A reactive maintenance task is scheduled if a machine breaks down (or fails), or is operating in a known degrade state of operation. Preventive maintenance is triggered by usage or time or a fixed schedule. As an example, for car owners, reactive maintenance occurs after there is an failure of a component (stalled engine, punctured tire, etc.), whereas preventive maintenance occurs on a fixed schedule (for example, tire rotation or oil change every 10000 miles) even though there may not be a need for doing so.
 
@@ -30,9 +27,8 @@ NASA's Prognostic Center of Excellence established a repository with datasets to
 
 Download the dataset here - https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan.
 
-*** s3 sync link instead of downloading from NASA
 
-more details
+### More details
 
 Data sets consists of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine ñ i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data is contaminated with sensor noise.
 
@@ -49,10 +45,7 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 ...
 26) sensor measurement 26
 
-(From the Readme included in the dataset zip)
-
-
-## OTHER USEFUL POINTERS SPECIFIC TO _THIS_ ML PROBLEM
+## Other Userful pointers
 
 Predictive maintenance using the turbofan engine dataset has been thought of as one of the following ML problems:
 
