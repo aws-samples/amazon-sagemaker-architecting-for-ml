@@ -50,7 +50,7 @@ random forest (https://en.wikipedia.org/wiki/Random_forest), gradient boosting r
 
 
 ## Starter Notebook
-* Architecting For ML/Starter Code/Forecasting.ipynb
+* Architecting For ML/Starter Code/solar_energy_etc....ipynb
 
 ## The curse of Autocorrelation 
 
