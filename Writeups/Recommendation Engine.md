@@ -5,10 +5,13 @@ Financial firms offer a wide array of products: checking accounts and retirement
 
 *Machine Learning Method*
 In this project, you will learn about Factorization Machines. This is a highly scalable algorithm that was developed by Steffen Rendel in 2010. It has the capacity to leverage extremely large datasets at the Terabyte scale, while still training in linear time. 
-[Image: Image.jpg]
+![alt text](Images/recommender_1.png ) 
 
 In essence, the factorization machines model is calculating the dot product between the user information and the item information, then computing the difference between those to update the model.
-[Image: Image.jpg]In order to accomplish this, you'll need to *format your data as events*. Each row in your final data set will need to be a single point in time when a customer interacts with a product account. Each column will be either a binary indicator for the product/user, or another feature.
+![alt text](Images/recommender_2.png ) 
+
+
+In order to accomplish this, you'll need to *format your data as events*. Each row in your final data set will need to be a single point in time when a customer interacts with a product account. Each column will be either a binary indicator for the product/user, or another feature.
 *Data set description*
 At your disposal, you have 1.5 years of consumer behavior. Your data begins in January 2015, and includes monthly records of customer activity. This includes credit card ownerships, savings account utilization etc. 
 
