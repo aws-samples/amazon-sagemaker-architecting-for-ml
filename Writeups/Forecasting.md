@@ -49,14 +49,17 @@ A recurrent neural network (RNN) is a class of artificial neural network (https:
 random forest (https://en.wikipedia.org/wiki/Random_forest), gradient boosting regressor (https://en.wikipedia.org/wiki/Gradient_boosting)and time delay neural networks (https://en.wikipedia.org/wiki/Time_delay_neural_network), temporal information can be included through a set of delays that are added to the input, so that the data is represented at different points in time. Try a statistical model or one of the above options in addition to the model you choose, just as a baseline. For a deep dive into understanding RNN, start with https://colah.github.io/posts/2015-08-Understanding-LSTMs/ and explore away!
 
 
-The curse of Autocorrelation 
+## Starter Notebook
+* Architecting For ML/Starter Code/Forecasting.ipynb
+
+## The curse of Autocorrelation 
 
 A predicted time series is said to have the property of autocorrelation if the predicted value of the next time step is very closely related to the current time step's value. Zooming into the the graph on the left shows the the observed values (red) and the predicted values (blue) are just offset by one time step. You do not need a machine learning model to achieve this; you only need the current time step's value!
 
 ![alt text](Images/forecast_4.png )
 Finally, inspect your data to see if certain features are more useful in predicting the output predicted variable (here, the incoming solar energy) than others. 
 
-References
+## References
 
 https://www.kaggle.com/c/ams-2014-solar-energy-prediction-contest/data
 https://www.esrl.noaa.gov/psd/people/tom.hamill/SolarEnergyManuscript.pdf
