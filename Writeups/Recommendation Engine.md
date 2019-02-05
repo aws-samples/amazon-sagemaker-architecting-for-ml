@@ -5,9 +5,11 @@ Financial firms offer a wide array of products: checking accounts and retirement
 
 *Machine Learning Method*
 In this project, you will learn about Factorization Machines. This is a highly scalable algorithm that was developed by Steffen Rendel in 2010. It has the capacity to leverage extremely large datasets at the Terabyte scale, while still training in linear time. 
+
 ![alt text](Images/recommender_1.png ) 
 
 In essence, the factorization machines model is calculating the dot product between the user information and the item information, then computing the difference between those to update the model.
+
 ![alt text](Images/recommender_2.png ) 
 
 
