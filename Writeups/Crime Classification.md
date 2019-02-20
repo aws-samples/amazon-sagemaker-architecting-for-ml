@@ -8,7 +8,7 @@ You'll leverage data that exists on the Chicago Data Portal. Join this with weat
 
 ## Deep Learning
 In this case, we want you to build a deep learning model. If you're unfamiliar, learn about sequential models that are built into Keras from this link:
-    - https://keras.io/getting-started/sequential-model-guide/ 
+- https://keras.io/getting-started/sequential-model-guide/ 
 
 ## Analysis
 1. First, analyze the data by finding trends. Are there periods where crimes repeat themselves on blocks? Which blocks see the most types of crime? What is the cycle period where crimes return on each block? Seven days, one month, one year?
