@@ -8,7 +8,6 @@ You'll leverage data that exists on the Chicago Data Portal. Join this with weat
 
 ## Deep Learning
 In this case, we want you to build a deep learning model. If you're unfamiliar, learn about sequential models that are built into Keras from this link:
-
     - https://keras.io/getting-started/sequential-model-guide/ 
 
 ## Analysis
