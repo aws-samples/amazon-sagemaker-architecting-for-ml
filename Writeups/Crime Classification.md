@@ -18,3 +18,6 @@ In this case, we want you to build a deep learning model. If you're unfamiliar, 
 
 ## Modeling
 Build a number of deep learning models, using Keras. Focus on LSTM's. Does the sequential element help us see which crime is most likely to occur more precisely?
+
+## Existing Work
+- https://arxiv.org/pdf/1806.01486.pdf  
