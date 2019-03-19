@@ -1,7 +1,7 @@
-# Product Recommendation Engines
+# Movie Recommendation Engines
 
 *Business Case*
-Financial firms offer a wide array of products: checking accounts and retirement plans are just the beginning. Today, you have joined the ranks of the data scientists at Santander.  Your current website provides a large number of recommendations to a small number of customers, which means that your company is not taking full advantage of the data sets your currently own and maintain. If you could recommend the right product to the right customer, you could accelerate your growth and meet the real demands of your consumer base.
+Movies are well loved by much of the world's population! Today you have joined the ranks of Netflix's data science team; your mission is to recommend the best movie to each customer.
 
 *Machine Learning Method*
 In this project, you will learn about Factorization Machines. This is a highly scalable algorithm that was developed by Steffen Rendel in 2010. It has the capacity to leverage extremely large datasets at the Terabyte scale, while still training in linear time. 
