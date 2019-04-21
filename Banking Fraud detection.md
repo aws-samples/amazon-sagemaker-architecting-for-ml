@@ -1,10 +1,8 @@
-# Anomaly Detection
-
-## Banking Fraud
+# Banking Fraud
 Every year, billions of banking transactions occur in the United States. While only a small portion of those are fraudulent, the results can be devastating is a fraudulent transaction is not discovered. Costs include damage to the customer, to the company, and to regulator agencies tasked with confirming validity of payments. 
 
 ## Anomaly Detection 
-Today, your task is to design an anomaly detection system capable of automatically catching fraudulent transactions. You will have a variety of approaches to evaluate. On the one hand, you will have labeled data, so you can design a classification approach. On the other hand, given that fraudsters change their methods and tactics very quickly, you might want to consider an unsupervised approach. Begin with an unsupervised model, and move into a classified approach if you have extra time. 
+Today, your task is to design an anomaly detection system capable of automatically catching fraudulent transactions. You will have a variety of approaches to evaluate. On the one hand, you will have labeled data, so you can design a classification approach. On the other hand, given that fraudsters change their methods and tactics very quickly, you might want to consider an unsupervised approach. 
 
 ## Your Data 
 Create a Kaggle account and download your data from this location:
@@ -15,23 +13,22 @@ You will have 182 MB of records, just over 6 million records with 11 columns. Th
 Explore both columns. It is very common for companies in finance to be currently using a rules-based system, and exploring the move from a large and complex rules-engine towards a dynamically learning and scalable machine-driven system.
 ![alt text](Images/rcf_datahead.png "rcf_datahead")
 
-## Random Cut Forest 
-The unsupervised algorithm you'll be exploring is Random Cut Forest. Intuitively, the model samples portions of your data and builds a small forest of trees. After training, inference can be performed on a single data element. If the tree changes beyond some learnable threshold, the data element is considered an anomaly. 
-![alt text](Images/rcf_graph.png "rcf_graph")
+## Supervised Approach
+Train an XGBoost or Linear Learner model. Run hyper-parameter tuning to understand the efficacy of those models for this scenario; is one model optimal? 
 
+After trying multiple approaches, consider your feature engineering strategy. Are there any repeating customers? If there are, can you train a network to flag key players? Can you add a boolean indicator for those key players, and does it enhance or decrease your model performance?
+
+## Unsupervised Approach
+The unsupervised algorithm you can explore is Random Cut Forest. Intuitively, the model samples portions of your data and builds a small forest of trees. After training, inference can be performed on a single data element. If the tree changes beyond some learnable threshold, the data element is considered an anomaly. 
+![alt text](Images/rcf_graph.png "rcf_graph")
 
 The data come provided to you in a single file. You will need to split them into a train, test, and validation set. Use the validation set extensively when optimizing your model, but rely on the test set only sparingly to determine the final evaluation report on your model.
 
 Use the unsupervised RCF algorithm to find anomalies, and test your model based on the hold-out set. 
 
-## Supervised Approaches 
-After gaining headway in the unsupervised approach, consider a supervised method. Train an XGBoost and Linear Learner model. Run hyper-parameter tuning to understand the efficacy of those models for this scenario; is one model optimal? 
-
-After trying multiple approaches, consider your feature engineering strategy. Are there any repeating customers? If there are, can you train a network to flag key players? Can you add a boolean indicator for those key players, and does it enhance or decrease your model performance?
-
 # Starter Code 
 
-* The dataset here is ready to use, so no starter code is necessary. 
+* The dataset here is ready to use, so no starter code is necessary. Try the Sagemaker Examples Linear Learner for fraud detection example first! 
 
 # References
 
