@@ -24,7 +24,7 @@ After using Comprehend, you can go one of two routes. In advanced cases, you can
 
 
 ## Data Sets 
-The dataset you'll be working with comes directly from the Amazon review site. This is hosted on AWS through coursework via fast.ai https://course.fast.ai/datasets. Navigate to this page and click download for* Amazon Reviews: Polarity. *The Amazon reviews polarity dataset is constructed by taking review score 1 and 2 as negative, and 4 and 5 as positive. Samples of score 3 is ignored. In the dataset, class 1 is the negative and class 2 is the positive. Each class has 1,800,000 training samples and 200,000 testing samples. 
+The dataset you'll be working with comes directly from the Amazon review site. This is hosted on AWS through coursework via fast.ai https://course.fast.ai/datasets. Navigate to this page and click download for **Amazon Reviews: Polarity**. The Amazon reviews polarity dataset is constructed by taking review score 1 and 2 as negative, and 4 and 5 as positive. Samples of score 3 is ignored. In the dataset, class 1 is the negative and class 2 is the positive. Each class has 1,800,000 training samples and 200,000 testing samples. 
 
 # Existing Research 
 Your research team just developed an innovative model that uses convolution to classify text. See this page for further details. http://xzh.me/docs/charconvnet.pdf 
