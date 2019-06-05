@@ -11,7 +11,7 @@ We will cover:
 As a prerequisite to attending this course, we recommend reviewing Python programming using the statistical package Pandas. We also recommend having a Cloud Practiioner AWS Certification, but it is not required. Lastly, we recommend the book listed below. It is an excellent read, and clearly demonstrates all important concepts. 
 - https://pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/ 
 - https://aws.amazon.com/certification/certified-cloud-practitioner/ 
-- Deep Learning with Python by Francois Chollet
+- [Deep Learning with Python by Francois Chollet](https://www.amazon.com/Deep-Learning-Python-Francois-Chollet/dp/1617294438)
 
 ## Agenda
 
