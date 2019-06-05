@@ -23,13 +23,13 @@ __Deliverable:__ Produce a sample writeup explaining your modeling strategy
 
 __Day Two:__ 
 - Learn about feature engineering on AWS
-- Start new notebooks, sample your code, and develop preliminary data sets
-- Read the evaluation questions, and begin to think about how your modeling strategy compares to the evaluation questions.
-- Finish most of your feature engineering.\
-__Deliverable:__ Product the first version of your trained model 
+- Start new notebooks, review sample code, and develop preliminary data sets
+- Read the evaluation questions, and begin to think about how your modeling strategy compares to the evaluation questions
+- Finish most of your feature engineering\
+__Deliverable:__ Produce the first version of your trained model 
 
 __Day Three:__
-- Learn about putting your model into production.
+- Learn about putting your model into production
 - Evalute your project against other approaches
 - Design a reference architecture demonstrating your final solution
 __Stretch goal:__ Produce multiple versions of your model and compare them
