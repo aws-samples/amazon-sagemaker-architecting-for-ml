@@ -50,7 +50,7 @@ random forest (https://en.wikipedia.org/wiki/Random_forest), gradient boosting r
 
 
 ## Starter Notebook
-* Architecting For ML/Starter Code/solar_energy_etc....ipynb
+* Architecting For ML/Starter Code/Forecasting Primer.ipynb
 
 ## The curse of Autocorrelation 
 
@@ -58,6 +58,9 @@ A predicted time series is said to have the property of autocorrelation if the p
 
 ![alt text](Images/forecast_4.png )
 Finally, inspect your data to see if certain features are more useful in predicting the output predicted variable (here, the incoming solar energy) than others. 
+
+## The Big Picture
+When you present on the last day of the class, we want you to answer the question, what does forecasting mean? We are looking for more of a discussion than a mathematical solution, feel free to tell us everything you learned about the pros and cons of building a forecasting solution, and what you think the field needs to know about in order to develop quality forecasts. 
 
 ## References
 
