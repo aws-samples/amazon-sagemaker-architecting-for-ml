@@ -50,7 +50,8 @@ random forest (https://en.wikipedia.org/wiki/Random_forest), gradient boosting r
 
 
 ## Starter Notebook
-* Architecting For ML/Starter Code/Forecasting Primer.ipynb
+* Architecting For ML/Starter Code/Forecasting Primer.ipynb Use this to train your first forecasting model.
+* Extend your solution using examples from this link: https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/deepar_electricity/DeepAR-Electricity.ipynb 
 
 ## The curse of Autocorrelation 
 
