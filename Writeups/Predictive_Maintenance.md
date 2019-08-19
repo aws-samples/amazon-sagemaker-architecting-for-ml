@@ -45,6 +45,10 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 ...
 26) sensor measurement 26
 
+## Starter Code
+We strongly recommend thinking about this as a regression problem. Here's an example notebook to get you started with regression using XGBoost.
+- https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/xgboost_abalone/xgboost_abalone.ipynb 
+
 ## Other Userful pointers
 
 Predictive maintenance using the turbofan engine dataset has been thought of as one of the following ML problems:
