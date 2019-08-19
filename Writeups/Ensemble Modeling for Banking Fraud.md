@@ -34,8 +34,10 @@ Use the starter code listed below to train multiple models in parallel. It's a m
 When analyzing the results of this, you'll need to create a separate endpoint for each model, then send data to all of them for testing. Pull the results of this back together, take the max of each prediction, then get your recall. Has it gone up relative to your first pass with XGBoost?
 
 ## Starter Code
+- https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_applying_machine_learning/xgboost_customer_churn/xgboost_customer_churn.ipynb 
+    This is a great starter example for beginners! 
 - Starter-Code/Multithreaded_Ensemble_Modeling.ipynb
-
+    This is an advanced solution
 
 # References
 
