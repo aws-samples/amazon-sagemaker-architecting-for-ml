@@ -3,7 +3,7 @@
 ## Business Problem
 Building and producing products that are actually adopted by customers and solve real problems for them is a historically challenging task. Today, imagine that you have joined the machine learning team on the Amazon e-commerce site! Your webpage is full of reviews from customers for each of your products. Your product owners want to know about a negative review *immediately*. Ideally, they'd like to know why the review was negative. 
 
-## Topic Modeling
+## Text Classification
 Your research team just finished labeling a set of data for positive and negative reviews. Go ahead, you can put it into a model right away. It should work straight out of the box!
 
 Your task is to identify topics, especially the negative ones. Download the data set as listed below, and extract the negative rewivews.
@@ -15,7 +15,7 @@ You can either do this through the console, or programatically from your noteboo
 
 After you've extracted the topics, spend some time reading through them. Do they seem logical? Can you describe them in English, give it a try, it's pretty tough!
 
-## Second Phase of Topic Modeling
+## Second Phase
 After using Comprehend, you can go one of two routes. In advanced cases, you can do both!
 
 (1) Build your own topic modeler. SageMaker has two built-in topic modeling algorithms: Latent Dirichlet Allocation and Neural Topic Modeling. Pick one or both of them, and train your data in them. What do the resulting topics look like, are they better or worse than the ones you found in Comprehend? 

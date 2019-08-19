@@ -22,6 +22,13 @@ We highly suggest using the Movie Lens dataset. This is well suited to recommend
 
 * The built-in algorithm you are working with is designed to only handle either binary classification or regression. It can be extended to provide multi-class classification with KNN. First start with the recommender, and if your are up to the task, consider extracting the matrix and using it to build KNN clusters.
 
+*Starter Code*
+- https://github.com/aws-samples/amazon-sagemaker-architecting-for-ml/blob/master/Starter-Code/Recommendation-System-FM-KNN.ipynb
+
+*Extension*
+After you've run through a few steps, try extending your solution by using the managed recommendation service from AWS, Personalize. 
+- https://github.com/aws-samples/amazon-personalize-samples 
+
 *References*
 
 * In Python: https://www.datacamp.com/community/tutorials/recommender-systems-python
