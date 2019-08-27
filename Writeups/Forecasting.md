@@ -60,8 +60,9 @@ A predicted time series is said to have the property of autocorrelation if the p
 ![alt text](Images/forecast_4.png )
 Finally, inspect your data to see if certain features are more useful in predicting the output predicted variable (here, the incoming solar energy) than others. 
 
-## The Big Picture
-When you present on the last day of the class, we want you to answer the question, what does forecasting mean? We are looking for more of a discussion than a mathematical solution, feel free to tell us everything you learned about the pros and cons of building a forecasting solution, and what you think the field needs to know about in order to develop quality forecasts. 
+## Amazon Forecast
+Think forecasting is tough at this point? Why not check out a managed solution? Amazon Forecast is a fully managed service that helps you train a forecasting model on your own data, and use it to generate forecasts. Check it out!
+* https://github.com/aws-samples/amazon-forecast-samples
 
 ## References
 
