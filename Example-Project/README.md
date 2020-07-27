@@ -5,6 +5,10 @@ The notebook is the starting point, that will help you clone the repo, employ a 
 
 Feel free to step through this yourself, or modify to leverage your own base text. 
 
-Here's an example of what we generated from the fine-tuned GPT. Still need some work, but clearly the model learned something from the repo! 
+Here's an example of what we generated from the fine-tuned GPT. You can see the model starts with a logical overview, explaining that given our trained model we will deploy it to an endpoint, and even calling out that SageMaker offers a variety of ways to do this! The model learned about S3, and then writes its own code snippet including imports, an error handler, more exposition, a read from a file, and a sleeper!
 
-![](images/example_output.png)
+![](images/example_1.png)
+
+Here is the second snippet.
+
+![](images/example_2.png)
