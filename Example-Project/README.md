@@ -4,3 +4,5 @@ In this example, we thought it'd be fun to fine-tune the natural language genera
 The notebook is the starting point, that will help you clone the repo, employ a `utils.py` package to transform the `.ipynb` files, and package that up inside of script mode with the GPT2 model. 
 
 Feel free to step through this yourself, or modify to leverage your own base text. 
+
+![](images/example_output.png)
