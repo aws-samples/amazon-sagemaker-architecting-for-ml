@@ -5,4 +5,6 @@ The notebook is the starting point, that will help you clone the repo, employ a 
 
 Feel free to step through this yourself, or modify to leverage your own base text. 
 
+Here's an example of what we generated from the fine-tuned GPT. Still need some work, but clearly the model learned something from the repo! 
+
 ![](images/example_output.png)
