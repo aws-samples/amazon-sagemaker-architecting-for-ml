@@ -1,5 +1,7 @@
 # Clustering stock market data with ML Marketplace
 
+#### Note: This project requires you to use a separate AWS account that has AWS Marketplace access. If your team would like to do this project, please contact your AWS SA moderator to get access to the AWS account.
+
 Algorithmic trading - the devil is in the details. You've just joined the data science team for a new trading firm, All The Margins. Your firm has shown you their current portfolio, which they are quite pleased with. Your task is to find stocks that trade in a similar pattern to those in their existing portfolio. First, you will use the ML Marketplace to leverage a clustering solution. Next, you will enhance this by training your own model within SageMaker. 
 
 **Goal**: Learn about approximate nearest neighbor identification in high-dimensional spaces via:
