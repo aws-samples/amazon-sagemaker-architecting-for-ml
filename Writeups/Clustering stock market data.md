@@ -10,7 +10,7 @@ Algorithmic trading - the devil is in the details. You've just joined the data s
 #### Task 1 description:
 In this task, you will learn how to perform clustering on time series data and identify stocks that are performing identical to each other over a given time-span. You will download the stock market data at runtime, normalize values for each stock, and then identify clusters of stocks with identical shape. You will then share findings about which stocks seem to have identical behaviors. You will also report which value for `k` returned you the minimum SSD (Sum of the squared distances between each data point and the cluster centroid). 
 
-To help you ensure you have sufficient time for experimentation in Task 2, some [starter code](../Starter-Code/Apply clustering techniques (for workshop attendees).ipynb) for task 1 has been provided. 
+To help you ensure you have sufficient time for experimentation in Task 2, some [starter code](../Starter-Code/Apply clustering techniques.ipynb) for task 1 has been provided. 
 
 #### *References:*
 
