@@ -1,7 +1,5 @@
 # Architecting for ML - DeepComposer Module
 
-July 29 - 30, 2020
-
 ## Your Mission
 
 You are responding to a call for content from Amazon Studios to compose the soundtrack for a new movie on space exploration and colonization. They want the theme to reflect our Baroque music culture but at the same be reflective of advanced science that powers space travel. The studio wants new sounds and has heard about AWS DeepComposer that uses Machine Learning and Generative AI to create new music. They reach out to you to compose a test track for them that should be a minute long that should be harmonically elegant, contain Bach like chords, contain fresh embellishments and should impress them. If they like your track you will be hired to compose music for the movie.
