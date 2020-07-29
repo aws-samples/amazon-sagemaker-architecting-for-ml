@@ -10,7 +10,7 @@ Algorithmic trading - the devil is in the details. You've just joined the data s
 2. Clustering high-dimensional data using Amazon SageMaker built-in [K-Means Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/k-means.html)
 
 #### Task 1 description:
-In this task, you will learn how to perform clustering on time series data and identify stocks that are performing identical to each other over a given time-span. You will download the stock market data at runtime, normalize values for each stock, and then identify clusters of stocks with identical shape. You will then share findings about which stocks seem to have identical behaviors. You will also report which value for `k` returned you the minimum SSD (Sum of the squared distances between each data point and the cluster centroid). 
+In this task, you will learn how to perform clustering on time series data and identify stocks that are performing identical to each other over a given time-span. You will download the stock market data at runtime, normalize values for each stock, and then identify clusters of stocks with identical shape. You will then share findings about which stocks seem to have identical behaviors. You will try multiple values for K (2 to 20) and report which value for `k` returned you the minimum SSD (Sum of the squared distances between each data point and the cluster centroid). 
 
 To help you ensure you have sufficient time for experimentation in Task 2, some [starter code](https://github.com/aws-samples/amazon-sagemaker-architecting-for-ml/blob/master/Starter-Code/Apply%20clustering%20techniques.ipynb) for task 1 has been provided. 
 
