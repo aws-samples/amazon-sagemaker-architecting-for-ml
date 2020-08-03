@@ -10,7 +10,7 @@ def initialize_output(outfile_name):
         f.write(' ') 
     return
 
-def write_rows(rows, data, output_file, bucket, patb):
+def write_rows(rows, data, output_file, bucket, path):
     '''
     Takes the pair indices, data object and output file name
         Gets the content from the data
@@ -18,6 +18,8 @@ def write_rows(rows, data, output_file, bucket, patb):
     '''
     
     with open(output_file, 'a') as f:
+        
+        f.write('<|startoftext|>')
         
         # loop through rows
         for idx, r in enumerate(rows):
@@ -44,6 +46,9 @@ def write_rows(rows, data, output_file, bucket, patb):
                 f.write('\n')
 
                 f.write(code_content)
+                
+        f.write('<|endoftext|>')
+
                 
     os.system('aws s3 cp {} s3://{}/{}/'.format(output_file, bucket, path))
     
@@ -126,8 +131,7 @@ def get_rows(placements, place_list):
                 
     return rt
 
-# only look at markdwn directly in front of code
-# also drop cases of multiple code cells 
+# TODO - extend the walker to parse auxiliary files, not just ipynbs
 
 def parse_notebook(input_file, output_file, bucket, path):
     '''
