@@ -22,17 +22,17 @@ You have to complete the following two steps to complete your challenge:
 
 1. Use Generative Adversarial Network (GAN) to train a ML model using a dataset of Bach compositions so that the model learns to add accompaniments to a single track input melody. In other words, if the user provides a single piano track of a song such as "twinkle twinkle little star", the GAN model would add three other piano tracks to make the music sound more Bach-inspired. 
 
-2. Use AWS DeepComposer to generate music that needs to be as similar to a Baroque or Bach style composition as you can get. You can select from one of the several samples already provided by DeepComposer. You then use a combination of Autoregressive CNN and GAN techniques to infuse creativity, accompaniments and unforeseen embellishments to the input piece resulting in diverse musical variation but you will have to stay close to Bach or Baroque. Once you complete a composition, you can upload it to SoundCloud (yes you will have to create an account for yourself) with the tag **#aug-arch-ml-workshop **(uncheck the chart buster challenge checkbox). Some tips and criteria to considering when creating your composition:
+2. Use AWS DeepComposer to generate music that needs to be as similar to a Baroque or Bach style composition as you can get. You can select from one of the several samples already provided by DeepComposer. You then use a combination of Autoregressive CNN and GAN techniques to infuse creativity, accompaniments and unforeseen embellishments to the input piece resulting in diverse musical variation but you will have to stay close to Bach or Baroque. Once you complete a composition, you can upload it to SoundCloud (yes you will have to create an account for yourself) with the tag **#aug-arch-ml-workshop** (uncheck the chart buster challenge checkbox). Some tips and criteria to considering when creating your composition:
 
-* Originality – a unique composition
-* Rhythm – enhances melody/harmony
-* Accompaniment/chord progressions – supportive
-* Cleanliness of sound – polished composition
-* Emotional Resonance - how do you feel when you listen to this
+ * Originality – a unique composition
+ * Rhythm – enhances melody/harmony
+ * Accompaniment/chord progressions – supportive
+ * Cleanliness of sound – polished composition
+ * Emotional Resonance - how do you feel when you listen to this
 
 ## Get Started
 
-* You can get started with this sample notebook - <to be uploaded>
+* You can get started with this sample notebook - https://github.com/aws-samples/amazon-sagemaker-architecting-for-ml/blob/master/Starter-Code/Architecting-for-ML-GAN.ipynb
 * We use the midi files from the DeepComposer samples here for our notebook - https://github.com/aws-samples/aws-deepcomposer-samples/tree/master/Lab%202/original_midi
 
 **Hint:** Use the links provided in the resources below to learn about GAN and how to use DeepComposer
