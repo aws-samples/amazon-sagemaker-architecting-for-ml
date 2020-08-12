@@ -18,7 +18,11 @@ Regardless of your experience with machine learning (ML) or music, you can use A
 
 ## The Challenge
 
-Your task is to use AWS DeepComposer to generate music that needs to be as similar to a Baroque or Bach style composition as you can get. We will assess your composition using an AI judge that’s trained on Bach compositions. You can select from one of the several samples already provided by DeepComposer or use this link to download some custom samples - https://bit.ly/dcsamples. You then use a combination of Autoregressive CNN and GAN techniques to infuse creativity, accompaniments and unforeseen embellishments to the input piece resulting in diverse musical variation but you will have to stay close to Bach or Baroque. Once you complete a composition, you should upload to SoundCloud (yes you will have to create an account for yourself) with the tag **#deepmlworkshop **(uncheck the chart buster challenge checkbox). You are allowed one submission, so please make sure you experiment in the DeepComposer console and when ready with the final piece, submit to SoundCloud. When submitting your track to SoundCloud, please rename the track with **<fullname-company-genre>**. We also look for the following features in your track:
+You have to complete the following two steps to complete your challenge:
+
+1. Use Generative Adversarial Network (GAN) to train a ML model using a dataset of Bach compositions so that the model learns to add accompaniments to a single track input melody. In other words, if the user provides a single piano track of a song such as "twinkle twinkle little star", the GAN model would add three other piano tracks to make the music sound more Bach-inspired. 
+
+2. Use AWS DeepComposer to generate music that needs to be as similar to a Baroque or Bach style composition as you can get. You can select from one of the several samples already provided by DeepComposer. You then use a combination of Autoregressive CNN and GAN techniques to infuse creativity, accompaniments and unforeseen embellishments to the input piece resulting in diverse musical variation but you will have to stay close to Bach or Baroque. Once you complete a composition, you can upload it to SoundCloud (yes you will have to create an account for yourself) with the tag **#aug-arch-ml-workshop **(uncheck the chart buster challenge checkbox). Some tips and criteria to considering when creating your composition:
 
 * Originality – a unique composition
 * Rhythm – enhances melody/harmony
@@ -26,12 +30,17 @@ Your task is to use AWS DeepComposer to generate music that needs to be as simil
 * Cleanliness of sound – polished composition
 * Emotional Resonance - how do you feel when you listen to this
 
+## Get Started
+
+* You can get started with this sample notebook - <to be uploaded>
+* We use the midi files from the DeepComposer samples here for our notebook - https://github.com/aws-samples/aws-deepcomposer-samples/tree/master/Lab%202/original_midi
+
+**Hint:** Use the links provided in the resources below to learn about GAN and how to use DeepComposer
+
 ## Resources
 
 * DeepComposer Demo Videos from Youtube - https://www.youtube.com/watch?v=XH2EbK9dQlg&t=9s
 * DeepComposer Learning Capsule 1 Generative Adversarial Networks - https://console.aws.amazon.com/deepcomposer/home?region=us-east-1#learningCapsules/introToGANs
 * DeepComposer Learning Capsule 2 Autoregressive CNN - https://console.aws.amazon.com/deepcomposer/home?region=us-east-1#learningCapsules/autoregressive
-* DeepComposer Lab - http://d1fjxffqn7wkdo.cloudfront.net/deep-composer/deep_composer_lab.pdf
-* **Optional Module** - Train a GAN on Amazon SageMaker - https://github.com/aws-samples/aws-deepcomposer-samples/tree/master/Lab%202
 * Creating a new music genre model - https://aws.amazon.com/blogs/machine-learning/creating-a-music-genre-model-with-your-own-data-in-aws-deepcomposer/
 * SoundCloud - https://soundcloud.com/tags/awsdeepcomposer
